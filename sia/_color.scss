@@ -13,29 +13,19 @@
 ///
 /// @type map
 
-$sia-green: #20EE82;
+$sia-green: #20ee82;
+$sia-grey: #7f8c8d;
 
 $styleguide-color-data: (
   base: transparent,
   white: #ffffff,
   black: #000000,
   sia-green: $sia-green,
-  sky: (lighter: #f9fafb, light: #f4f6f8, base: #dfe4e8, dark: #c4cdd5),
-  ink: (
-    lightest: #F7F9F9,
-    lighter: #BFC9CA,
-    light: #95A5A6,
-    base: #7F8C8D,
-    dark: #1a222b,
-    darker: #161d25
-  ),
-  circle: (
-    base: #ECF0F1,
-    active: $sia-green
-  )
+  sky: (lightest: #ffffff, lighter: #f7f9f9, base: #ecf0f1),
+  ink: (lightest: #bfc9ca, light: #95a5a6, base: $sia-grey),
+  circle: (base: #ecf0f1, active: $sia-green)
 );
 
 ///
 /// Merge into Threads
 @include threads-update-property('color', $styleguide-color-data);
-
