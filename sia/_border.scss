@@ -1,0 +1,17 @@
+////
+/// Border
+/// @group theme/border
+////
+
+///
+/// Border data
+$styleguide-border-data: (
+  base: rem(3px) solid sg-color(ink, lightest),
+  avatar: rem(6px) solid sg-color(sia-green)
+);
+
+///
+/// Merge into Threads
+@include threads-update-property('border', $styleguide-border-data);
+
+

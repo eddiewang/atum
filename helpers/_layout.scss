@@ -3,7 +3,7 @@
 /// @group helpers/layout
 ////
 
-@mixin layout-container($max-width: null) {
+@mixin layout-container($max-width: $layout-container-width) {
   max-width: $max-width;
   margin-right: auto;
   margin-left: auto;

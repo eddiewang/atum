@@ -1,0 +1,25 @@
+////
+/// Font size
+/// @group theme/font-size
+////
+
+///
+/// Reuseable sizes
+// $font-size-thing: 14rem;
+
+///
+/// font size data
+$styleguide-font-size-data: (
+  base: 1.8rem,
+  h1: (base: 4.0rem, desktop: 5.2rem),
+  h2: (base: 3.8rem, desktop: 4.8rem),
+  h3: (base: 2.6rem, desktop: 3.6rem),
+  h4: (base: 2.4rem),
+  h5: (base: base)
+);
+
+///
+/// Merge into Threads
+@include threads-update-property('font-size', $styleguide-font-size-data);
+
+

@@ -38,18 +38,19 @@ h5,
 h6,
 p {
   margin: 0;
+  display: block;
   font-size: 1em;
   font-weight: 400;
 }
 
 a:not([data-polaris-unstyled]) {
-  color: sg-color(green, sia);
+  color: sg-color(ink);
   text-decoration: none;
 
   &:hover,
   &:focus,
   &:active {
     outline: none;
-    color: sg-color(blue, dark);
+    color: sg-color(sia-green);
   }
 }
