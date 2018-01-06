@@ -16,7 +16,7 @@
 
 @mixin control-backdrop($style: base) {
   @if $style == base {
-    background: color(sky, dark);
+    background: color(sky);
     border: border(transparent);
     box-shadow:
       0 0 0 1px transparent,
@@ -34,7 +34,7 @@
       left: 0;
       right: 0;
       display: block;
-      background: linear-gradient(to bottom, color(white), color(sky, lighter));
+      background: linear-gradient(to bottom, color(white), color(sky, light));
       border-radius: calc(#{border-radius()} - 1px);
     }
   } @else if $style == focused {
@@ -53,7 +53,7 @@
     background: color(sky);
     box-shadow: none;
 
-    &::after { background: color(sky, lighter); }
+    &::after { background: color(sky, light); }
   } @else if $style == focused-error {
     background: color(indigo);
     box-shadow: 0 0 0 1px color(indigo);

@@ -56,7 +56,7 @@ $typography-condensed: em(640px);
 @mixin text-style-body {
   font-size: font-size(body);
   font-weight: 400;
-  line-height: line-height(body);
+  line-height: 1.2;
 
   text-transform: initial;
   letter-spacing: initial;
@@ -141,7 +141,7 @@ $typography-condensed: em(640px);
 }
 
 @mixin text-emphasis-subdued($for-background: null) {
-  color: color(ink, lighter, $for-background: $for-background);
+  color: color(ink, light, $for-background: $for-background);
 }
 
 @mixin text-emphasis-strong {

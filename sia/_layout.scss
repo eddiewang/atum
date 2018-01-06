@@ -5,7 +5,7 @@
 
 ///
 /// Reuseable widths
-$layout-container-width: 140rem;
+$layout-container-width: 120rem;
 
 // PageNavActivator + Hamburger dimensions
 $page-nav-link-height: 4rem;
@@ -56,7 +56,7 @@ $styleguide-layout-width-data: (
 $styleguide-layout-height-data: (
   base: 0,
   page-header: (base:16rem, tablet: 12rem),
-  page-footer: 10rem,
+  page-footer: 40rem,
   page-nav:
   (
     base: $hamburger-height + (sg-spacing(tighter) * 2),
