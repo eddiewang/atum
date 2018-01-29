@@ -60,7 +60,7 @@ $styleguide-layout-height-data: (
   page-nav:
   (
     base: $hamburger-height + (sg-spacing(tighter) * 2),
-    expanded: $page-nav-link-height * 7 + sg-spacing(looser) + sg-spacing(tightest)
+    expanded: $page-nav-link-height * 13 + sg-spacing(looser) + sg-spacing(tightest)
   ),
   page-nav-link: $page-nav-link-height,
   page-nav-indicator: 0.6rem,
